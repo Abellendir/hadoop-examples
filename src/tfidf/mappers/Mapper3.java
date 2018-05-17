@@ -1,4 +1,4 @@
-package resources.mappers;
+package tfidf.mappers;
 
 import java.io.IOException;
 

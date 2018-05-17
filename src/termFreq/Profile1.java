@@ -1,4 +1,4 @@
-package PA1.src.pkg; //Silly eclipse can't run it otherwise, has to be this way in order to run the jar for hadoop
+package termFreq;
 
 import java.io.IOException;
 import java.util.StringTokenizer;

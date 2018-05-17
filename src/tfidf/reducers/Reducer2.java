@@ -1,4 +1,4 @@
-package resources.reducers;
+package tfidf.reducers;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -7,7 +7,6 @@ import java.util.Iterator;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
-import driver.drivers.Driver.UpdateCount;
 
 public class Reducer2 extends Reducer<Text, Text, Text, Text> {
 	public void reduce(Text key, Iterable<Text> values, Context context)

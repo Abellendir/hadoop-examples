@@ -1,9 +1,9 @@
-package resources.partitioners;
+package tfidf.partitioners;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.mapreduce.Partitioner;
 
-import resources.writables.CompositeKeyWritable;
+import tfidf.writables.CompositeKeyWritable;
 
 public class Partitioner1 extends Partitioner<CompositeKeyWritable, IntWritable> {
 	@Override

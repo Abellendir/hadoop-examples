@@ -1,4 +1,4 @@
-package resources.mappers;
+package tfidf.mappers;
 
 import java.io.IOException;
 import java.util.StringTokenizer;
@@ -8,8 +8,8 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
-import driver.drivers.Driver.UpdateCount;
-import resources.writables.CompositeKeyWritable;
+import tfidf.drivers.Driver.UpdateCount;
+import tfidf.writables.CompositeKeyWritable;
 
 public class Mapper1 extends Mapper<LongWritable, Text, CompositeKeyWritable, IntWritable>{
 	public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {

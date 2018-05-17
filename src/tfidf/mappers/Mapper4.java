@@ -1,4 +1,4 @@
-package resources.mappers;
+package tfidf.mappers;
 
 import java.io.IOException;
 
@@ -6,7 +6,7 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
-import driver.drivers.Driver.UpdateCount;
+import tfidf.drivers.Driver.UpdateCount;
 
 public class Mapper4 extends Mapper<LongWritable, Text, Text, Text> {
 	

@@ -1,4 +1,4 @@
-package resources.reducers;
+package tfidf.reducers;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,9 +1,10 @@
-package resources.comparators;
+package tfidf.comparators;
 
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;
 
-import resources.writables.CompositeKeyWritable;
+import tfidf.writables.CompositeKeyWritable;
+
 
 public class GroupComparator1 extends WritableComparator {
 

@@ -1,4 +1,4 @@
-package resources.writables;
+package tfidf.writables;
 
 import java.io.DataInput;
 import java.io.DataOutput;

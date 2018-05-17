@@ -1,11 +1,12 @@
-package resources.reducers;
+package tfidf.reducers;
 
 import java.io.IOException;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.mapreduce.Reducer;
 
-import resources.writables.CompositeKeyWritable;
+import tfidf.writables.CompositeKeyWritable;
+
 
 public class Reducer1 extends Reducer<CompositeKeyWritable, IntWritable, CompositeKeyWritable, IntWritable> {
 	

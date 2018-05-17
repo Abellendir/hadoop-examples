@@ -1,4 +1,4 @@
-package resources.partitioners;
+package tfidf.partitioners;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Partitioner;

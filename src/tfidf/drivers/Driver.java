@@ -1,4 +1,4 @@
-package driver.drivers;
+package tfidf.drivers;
 
 import java.io.IOException;
 
@@ -13,20 +13,20 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
-import resources.mappers.Mapper1;
-import resources.mappers.Mapper2;
-import resources.mappers.Mapper3;
-import resources.mappers.Mapper4;
-import resources.mappers.MapperFinal1;
-import resources.mappers.MapperFinal2;
-import resources.partitioners.GeneralPartitioner;
-import resources.partitioners.Partitioner1;
-import resources.reducers.Reducer1;
-import resources.reducers.Reducer2;
-import resources.reducers.Reducer3;
-import resources.reducers.Reducer4;
-import resources.reducers.Reducer5;
-import resources.writables.CompositeKeyWritable;
+import tfidf.mappers.Mapper1;
+import tfidf.mappers.Mapper2;
+import tfidf.mappers.Mapper3;
+import tfidf.mappers.Mapper4;
+import tfidf.mappers.MapperFinal1;
+import tfidf.mappers.MapperFinal2;
+import tfidf.partitioners.GeneralPartitioner;
+import tfidf.partitioners.Partitioner1;
+import tfidf.reducers.Reducer1;
+import tfidf.reducers.Reducer2;
+import tfidf.reducers.Reducer3;
+import tfidf.reducers.Reducer4;
+import tfidf.reducers.Reducer5;
+import tfidf.writables.CompositeKeyWritable;
 
 public class Driver {
 
